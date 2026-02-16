@@ -1,0 +1,2240 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+}
+.blurred-text {
+  filter: blur(7px);
+}
+
+.bg-purple {
+  background-color: #8a48b3;
+}
+.bg-light-blue {
+  background-color: #ebf2ff;
+}
+.bg-blue {
+  background-color: #486ab3;
+}
+.inputTextBlack {
+  color: black !important;
+}
+
+.custom-thead {
+  background-color: #486ab3 !important; /* Replace with your custom color */
+  color: white !important; /* Text color */
+}
+
+.text-purple {
+  color: #486ab3;
+}
+/* .ant-form-vertical .ant-form-item:not(.ant-form-item-horizontal) .ant-form-item-label>label {
+  font-weight: bold;
+  color: blue;
+} */
+
+:where(.css-dev-only-do-not-override-zg0ahe).ant-table-wrapper
+  .ant-table.ant-table-small
+  .ant-table-title,
+:where(.css-dev-only-do-not-override-zg0ahe).ant-table-wrapper
+  .ant-table.ant-table-small
+  .ant-table-footer,
+:where(.css-dev-only-do-not-override-zg0ahe).ant-table-wrapper
+  .ant-table.ant-table-small
+  .ant-table-cell,
+:where(.css-dev-only-do-not-override-zg0ahe).ant-table-wrapper
+  .ant-table.ant-table-small
+  .ant-table-thead
+  > tr
+  > th,
+:where(.css-dev-only-do-not-override-zg0ahe).ant-table-wrapper
+  .ant-table.ant-table-small
+  .ant-table-tbody
+  > tr
+  > th,
+:where(.css-dev-only-do-not-override-zg0ahe).ant-table-wrapper
+  .ant-table.ant-table-small
+  .ant-table-tbody
+  > tr
+  > td,
+:where(.css-dev-only-do-not-override-zg0ahe).ant-table-wrapper
+  .ant-table.ant-table-small
+  tfoot
+  > tr
+  > th,
+:where(.css-dev-only-do-not-override-zg0ahe).ant-table-wrapper
+  .ant-table.ant-table-small
+  tfoot
+  > tr
+  > td {
+  padding: 4px;
+}
+
+/* for colors  */
+.list-with-icons {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-item {
+  display: flex;
+  align-items: start;
+}
+
+.list-icon {
+  margin-right: 0.3rem;
+  margin-top: 0.2rem;
+}
+
+.textblue {
+  color: #486ab3;
+}
+
+.bgblue {
+  background-color: #486ab3;
+  color: #fff;
+}
+
+.bglightblue {
+  background-color: #a0bce4;
+}
+.bggrey {
+  background-color: #f9f9f9;
+}
+
+.text-lilac {
+  color: #9874d3;
+}
+.bg-lilac {
+  background-color: #9874d3;
+}
+.bg-palelilac {
+  background-color: #e6e9f9;
+}
+/* for colors */
+
+/* .ant-form-vertical .ant-form-item:not(.ant-form-item-horizontal) .ant-form-item-label>label {
+  font-weight: bold;
+  color: blue;
+} */
+:where(.css-dev-only-do-not-override-zg0ahe).ant-form-item
+  .ant-form-item-label
+  > label {
+  font-weight: bold;
+  /* color: blue; */
+}
+
+.ant-table-wrapper
+  .ant-table.ant-table-bordered
+  > .ant-table-container
+  > .ant-table-content
+  > table
+  > thead
+  > tr
+  > th {
+  background-color: #486ab3 !important;
+  margin: auto auto;
+  text-align: center;
+  /* align-items: center; */
+  /* background-color: blue !important; */
+  color: #fff;
+}
+.ant-table-wrapper
+  .ant-table
+  > .ant-table-container
+  > .ant-table-content
+  > table
+  > thead
+  > tr
+  > th {
+  background-color: #486ab3 !important;
+  margin: auto auto;
+  text-align: center;
+  /* align-items: center; */
+  /* background-color: blue !important; */
+  color: #fff;
+}
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+  /* border-color: #98b2e6; */
+  /* text-align: center; */
+  border: 1px solid #98b2e626 !important;
+}
+:where(.css-dev-only-do-not-override-zg0ahe).ant-table-wrapper
+  .ant-table.ant-table-small
+  .ant-table-title,
+:where(.css-dev-only-do-not-override-zg0ahe).ant-table-wrapper
+  .ant-table.ant-table-small
+  .ant-table-footer,
+:where(.css-dev-only-do-not-override-zg0ahe).ant-table-wrapper
+  .ant-table.ant-table-small
+  .ant-table-cell,
+:where(.css-dev-only-do-not-override-zg0ahe).ant-table-wrapper
+  .ant-table.ant-table-small
+  .ant-table-thead
+  > tr
+  > th,
+:where(.css-dev-only-do-not-override-zg0ahe).ant-table-wrapper
+  .ant-table.ant-table-small
+  .ant-table-tbody
+  > tr
+  > th,
+:where(.css-dev-only-do-not-override-zg0ahe).ant-table-wrapper
+  .ant-table.ant-table-small
+  .ant-table-tbody
+  > tr
+  > td,
+:where(.css-dev-only-do-not-override-zg0ahe).ant-table-wrapper
+  .ant-table.ant-table-small
+  tfoot
+  > tr
+  > th,
+:where(.css-dev-only-do-not-override-zg0ahe).ant-table-wrapper
+  .ant-table.ant-table-small
+  tfoot
+  > tr
+  > td {
+  padding: 4px;
+}
+
+.navlink-no-underline {
+  text-decoration: none;
+}
+
+.navlink-no-underline:hover {
+  text-decoration: none;
+}
+
+:where(
+    .css-dev-only-do-not-override-zg0ahe
+  ).ant-input-outlined.ant-input-disabled,
+:where(.css-dev-only-do-not-override-zg0ahe).ant-input-outlined[disabled] {
+  color: rgba(0, 0, 0, 1);
+}
+:disabled {
+  color: rgba(0, 0, 0, 1) !important;
+}
+/* :where(.css-dev-only-do-not-override-zg0ahe).ant-picker-outlined.ant-picker-disabled, :where(.css-dev-only-do-not-override-zg0ahe).ant-picker-outlined[disabled]{
+  color: rgba(0, 0, 0, 1)!important;
+} */
+:where(.css-dev-only-do-not-override-zg0ahe).ant-input-number
+  .ant-input-number-input {
+  color: rgba(0, 0, 0, 1);
+}
+:where(
+    .css-dev-only-do-not-override-zg0ahe
+  ).ant-select-outlined.ant-select-disabled:not(.ant-select-customize-input)
+  .ant-select-selector {
+  color: rgba(0, 0, 0, 1);
+}
+
+.ant-btn-primary {
+  background-color: #486ab3;
+  color: #fff;
+  border-color: #486ab3;
+}
+
+.ant-btn:hover,
+.ant-btn:focus {
+  border-color: transparent;
+}
+
+.textHover:hover {
+  color: #486ab3;
+}
+
+.cardheadergradient {
+  background-image: linear-gradient(to bottom, #dbe9fa, #f6faff);
+}
+.planCard {
+  transition: all 0.2s;
+}
+
+.planCard:hover {
+  border-radius: 24px;
+  transform: scale(1.01);
+  box-shadow: 1px 1px 10px 1px #486ab3;
+  /* z-index: 10; */
+}
+
+.ant-modal .ant-modal-content {
+  background-color: #f6faff;
+}
+.ant-modal .ant-modal-title {
+  background-color: #f6faff;
+}
+
+.termsScroll {
+  list-style-type: "none";
+  height: "50vh";
+  overflow-y: "scroll";
+  padding: "10px";
+  scrollbar-width: "thin";
+  scrollbar-color: "#486ab3 #ffffff";
+}
+
+::-webkit-scrollbar {
+  width: "10px";
+}
+::-webkit-scrollbar-track {
+  background: "#ffffff";
+}
+::-webkit-scrollbar-thumb {
+  background: "#486ab3";
+  border-radius: "5px";
+}
+
+.custom-font-size {
+  font-size: 1rem;
+}
+
+.custom-tabs .ant-tabs-tab {
+  color: #486ab3 !important;
+  background: #7992c7 !important;
+  margin: 0 !important;
+}
+
+.custom-tabs .ant-tabs-tab-active {
+  color: #ffffff !important;
+  background-color: #486ab3 !important;
+  border-color: #486ab3 !important;
+  margin: 0 !important;
+}
+
+.icon-grey {
+  filter: grayscale(100%);
+}
+
+.icon-default {
+  filter: none;
+}
+
+.title-none {
+  display: none;
+}
+.border-tabcard {
+  border-style: solid !important;
+  border-color: #486ab3 !important;
+  border-radius: 0 14px 14px 14px !important;
+}
+
+.ant-tabs-top > .ant-tabs-nav {
+  margin: 0 !important;
+}
+.ant-table-column-sorter .ant-table-column-sorter-up {
+  color: #fff;
+}
+
+.ant-table-column-sorter .ant-table-column-sorter-down {
+  color: #fff;
+}
+
+.bg-f5f5f5 {
+  background-color: #f5f5f5 !important;
+}
+
+.bg-5dadec {
+  background-color: #5dadec !important;
+}
+
+.bg-c4def7 {
+  background-color: #c4def7 !important;
+}
+.bg-deefff {
+  background-color: #deefff !important;
+}
+.bg-243673 {
+  background-color: #243673 !important;
+}
+.bg-A9C1FD {
+  background-color: #a9c1fd1a !important;
+}
+.bg-f0f8ff {
+  background-color: #f0f8ff !important;
+}
+.bg-f1f5ff {
+  background-color: #f1f5ff !important;
+}
+.bg-f6faff {
+  background-color: #f6faff !important;
+}
+.bg-eeeeee {
+  background-color: #eeeeee !important;
+}
+.bg-gradient-light {
+  background-image: linear-gradient(to left, #deefff, #ffffff) !important;
+}
+.bg-gradient-lightR {
+  background-image: linear-gradient(to right, #deefff, #ffffff) !important;
+}
+.bg-gradient-lighter {
+  background-image: linear-gradient(to left, #f0f8ff, #ffffff) !important;
+}
+.bg-gradient-semidark {
+  background-image: linear-gradient(to bottom, #ffffff, #4a68b1) !important;
+  border-radius: 50%;
+  /* overflow: hidden; */
+  position: relative;
+}
+.bg-f7f7f7 {
+  background-color: #f7f7f7 !important;
+}
+.bg-4a68b1 {
+  background-color: #4a68b1 !important;
+}
+.fw-600 {
+  font-weight: 600 !important;
+}
+.fw-500 {
+  font-weight: 500 !important;
+}
+.fw-400 {
+  font-weight: 400 !important;
+}
+.fw-800 {
+  font-weight: 800 !important;
+}
+.fw-700 {
+  font-weight: 700 !important;
+}
+.text-4d4d4d {
+  color: #4d4d4d !important;
+}
+.text-eeeeee {
+  color: #eeeeee !important;
+}
+.text-475467 {
+  color: #475467 !important;
+}
+.text-243572 {
+  color: #243572 !important;
+}
+.text-153780 {
+  color: #153780 !important;
+}
+.text-5dadec {
+  color: #5dadec !important;
+}
+.fs-8px {
+  font-size: 8px !important;
+}
+.fs-18px {
+  font-size: 18px !important;
+}
+.fs-12px {
+  font-size: 12px !important;
+}
+.fs-20px {
+  font-size: 20px !important;
+}
+.fs-16px {
+  font-size: 16px !important;
+}
+.fs-14px {
+  font-size: 14px !important;
+}
+
+.fs-22px {
+  font-size: 22px !important;
+}
+
+.icon-enlarge {
+  transition: all 0.35s ease-in-out;
+}
+.icon-enlarge:hover {
+  transform: scale(1.2);
+}
+.inner {
+  overflow: hidden;
+  transition: all 0.35s ease-in-out;
+  /* width: 100%;  */
+  /* height: 100%; */
+  object-fit: cover;
+}
+.team-card:hover .card-body {
+  visibility: visible !important;
+  position: absolute;
+  bottom: 0;
+  background-color: #ffffff;
+  width: 100%;
+}
+.inner:hover {
+  transform: scale(1.15);
+}
+
+.input-custom::placeholder {
+  color: #7d7d7d;
+  font-size: 14px;
+  font-weight: 600;
+  opacity: 1;
+}
+
+.btn-container {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.btn-color-mode-switch {
+  display: inline-block;
+  margin: 0;
+  position: relative;
+}
+
+.btn-color-mode-switch > label.btn-color-mode-switch-inner {
+  margin: 0;
+  /* width: 358px;
+  height: 66px; */
+  background: #f5f5f5;
+  border-radius: 35px;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.3s ease;
+  display: block;
+}
+
+.btn-color-mode-switch > label.btn-color-mode-switch-inner:before {
+  content: attr(data-on);
+  position: absolute;
+  font-size: 20px;
+  font-weight: 500;
+  /* top: 14px;
+  right: 30px; */
+}
+
+.btn-color-mode-switch > label.btn-color-mode-switch-inner:after {
+  content: attr(data-off);
+  background: #5dadec;
+  color: #fff;
+  border-radius: 35px;
+  position: absolute;
+  /* left: 3.5px;
+  top: 3.5px; */
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.btn-color-mode-switch input[type="checkbox"] {
+  display: none;
+}
+
+.btn-color-mode-switch
+  input[type="checkbox"]:checked
+  + label.btn-color-mode-switch-inner {
+  background: #f5f5f5;
+  color: #000;
+}
+
+.btn-color-mode-switch
+  input[type="checkbox"]:checked
+  + label.btn-color-mode-switch-inner:after {
+  content: attr(data-on);
+  /* left: 165px; */
+  background: #5dadec;
+  color: #fff;
+}
+
+.btn-color-mode-switch
+  input[type="checkbox"]:checked
+  + label.btn-color-mode-switch-inner:before {
+  content: attr(data-off);
+  right: auto;
+  left: 35px;
+}
+.cardhoverblue {
+  transition: all 0.2s;
+  background-color: #4a68b1 !important;
+  color: #fff !important;
+  transform-origin: 0% 50%;
+  transform: scale(1.05);
+  z-index: 5;
+}
+
+.cardhover {
+  display: block;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  box-shadow: 0px 0px 4px -1px rgba(35, 34, 34, 0.75);
+}
+
+.cardhover:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: -25px;
+  left: 45%;
+  background-color: #a9c1fd;
+  height: 32px;
+  width: 32px;
+  border-radius: 32px;
+  transform: scale(1);
+  transform-origin: 50% 50%;
+  transition: transform 0.35s ease-out;
+}
+
+.cardhover:hover:before {
+  transform: scale(28);
+}
+.cardhover:hover {
+  /* box-shadow: 0px 0px 4px -1px rgba(35, 34, 34, 0.75); */
+  box-shadow: 8px 8px 0px -1px rgba(36, 54, 115, 1);
+}
+
+.cardplanhover {
+  display: block;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  background-image: linear-gradient(to bottom, #b5c2fb, #eff2ff);
+}
+
+.cardplanhover:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: -40px;
+  top: 45%;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(106, 138, 255, 0.56),
+    #eff2ff
+  );
+  height: 32px;
+  width: 32px;
+  border-radius: 32px;
+  border-color: #b5c2fb !important;
+  transform: scale(13);
+  transform-origin: 50% 50%;
+  transition: transform 0.2s ease-out;
+}
+.cardplanhover:hover:before {
+  transform: scale(18);
+}
+
+.cardplanhover:hover {
+  box-shadow: 0px 0px 4px -1px rgba(35, 34, 34, 0.75);
+  border: none;
+}
+
+.cardplanhoverbig {
+  display: block;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  background-color: #fff !important;
+}
+.cardplanhoverbig .selectborder {
+  border: 2px solid #f5f5f5;
+  border-radius: 12px;
+}
+.cardplanhoverbig .selectedFamily {
+  border: 2px solid #fff;
+  background-color: #fff;
+  border-radius: 12px;
+}
+.cardplanhoverbig:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: -40px;
+  top: 45%;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(106, 138, 255, 0.56),
+    #eff2ff
+  );
+  height: 32px;
+  width: 32px;
+  border-radius: 32px;
+  transform: scale(1);
+  transform-origin: 50% 50%;
+  transition: transform 0.35s ease-out;
+}
+.cardplanhoverbig:hover:before {
+  transform: scale(20);
+}
+.cardplanhoverbig:hover {
+  background-image: linear-gradient(to bottom, #b5c2fb, #eff2ff);
+}
+.cardplanhoverbig:hover .selectborder {
+  border: 2px solid #b5c2fb;
+  border-radius: 12px;
+}
+.card-shadow {
+  box-shadow: -17px 10px 0px -2px #b6c3e19c;
+  border-radius: 12px;
+}
+
+.img-box-shadow {
+  transition: all 0.2s ease-in-out;
+  box-shadow: 8px 8px 0px -1px rgba(36, 54, 115, 1);
+}
+
+.img-box-shadow:hover {
+  transform: scale(1.2);
+}
+
+.arrow-icons {
+  position: relative;
+}
+
+.arrow-right-up,
+.arrow-right {
+  position: absolute;
+  transition: opacity 0.35s ease;
+}
+
+.arrow-right-up {
+  opacity: 1;
+}
+
+.arrow-right {
+  opacity: 0;
+}
+
+.cardarrow:hover .arrow-right-up {
+  opacity: 0;
+}
+
+.cardarrow:hover .arrow-right {
+  opacity: 1;
+}
+.cardarrow {
+  transition: all 0.35s ease-in-out;
+}
+
+.cardarrow:hover {
+  transform: scale(1.02);
+}
+
+@keyframes popUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(30%);
+    opacity: 1;
+  }
+}
+
+.pop-up-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: 1;
+  z-index: 10;
+}
+
+.pop-up-image {
+  animation: popUp 1s ease-out forwards;
+}
+
+.text-truncated {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.input-border {
+  border-radius: none !important;
+  border-bottom: 2.3px solid #2e02494d !important;
+}
+.button-border {
+  color: #2e02494d !important;
+  border: 2.3px solid #2e02494d !important;
+}
+.form-item-margin-bottom {
+  margin-bottom: 1.25rem !important;
+}
+
+.footer-email-input::placeholder {
+  color: #fff;
+}
+.footer-email-input {
+  color: #fff;
+}
+
+.end-25px {
+  right: 10rem;
+}
+
+@media (min-width: 374px) {
+  .fs-32px {
+    font-size: 24px !important;
+  }
+  .fs-24px {
+    font-size: 20px !important;
+  }
+  .fs-36px {
+    font-size: 30px !important;
+  }
+  .fs-40px {
+    font-size: 26px !important;
+  }
+  .custom-font-size {
+    font-size: 0.9rem;
+  }
+  .search-placement {
+    top: 20vh;
+  }
+  .card-small-placement {
+    position: absolute;
+    top: 15vh;
+    left: 40vw;
+  }
+  .video-size {
+    /* width: 25%;
+    height: 100%; */
+  }
+  .video-responsive {
+    top: 30vh;
+    right: 9.5rem;
+    transform: translateY(-30%);
+  }
+  .element {
+    width: 5rem;
+  }
+  .element2 {
+    width: 8rem;
+  }
+  .modal-width {
+    width: 100%;
+  }
+  .mobile-input {
+    min-width: 100%;
+  }
+  .mobile-input1 {
+    min-width: 70%;
+  }
+  .mobile-input2 {
+    min-width: 108%;
+  }
+  .btn-color-mode-switch > label.btn-color-mode-switch-inner {
+    width: 258px;
+    height: 46px;
+  }
+  .btn-color-mode-switch > label.btn-color-mode-switch-inner:after {
+    width: 125px;
+    height: 38px;
+    left: 3.5px;
+    top: 4.5px;
+    padding: 8px 0;
+  }
+  .btn-color-mode-switch > label.btn-color-mode-switch-inner:before {
+    top: 18%;
+    right: 15%;
+    /* left: 50%; */
+  }
+  .btn-color-mode-switch
+    input[type="checkbox"]:checked
+    + label.btn-color-mode-switch-inner:after {
+    left: 129px;
+  }
+  .health-card-button {
+    padding: 0.1rem;
+    /* top : 25vh; */
+    /* left: 35vw; */
+    font-size: 0.55rem;
+  }
+  .footer-icons {
+    display: flex;
+  }
+  .arrowSize {
+    width: 1.2rem;
+  }
+  .text-size-banner {
+    font-size: 0.65rem;
+  }
+  .subscriber-img {
+    border-radius: 50%;
+    height: 3.25rem;
+    width: 3.25rem;
+    object-fit: cover;
+    object-position: center;
+  }
+  .subscriber-line1 {
+    top: 28vh;
+  }
+  .subscriber-line2 {
+    top: 30vh;
+  }
+  .subscriber-line3 {
+    bottom: 35vh;
+  }
+  .margin-90px {
+    margin: 0 0.1rem !important;
+  }
+
+  .counter-card {
+    width: 14.25rem !important;
+    min-height: 7.87rem !important;
+  }
+
+  .feedback-arrowSize {
+    width: 2.2rem;
+  }
+  .subscriber-row-height {
+    max-height: 100vh !important;
+    min-height: 59vh !important;
+  }
+  .pdf-height {
+    height: 10rem !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .fs-32px {
+    font-size: 32px !important;
+  }
+  .fs-24px {
+    font-size: 24px !important;
+  }
+
+  .fs-36px {
+    font-size: 36px !important;
+  }
+  .fs-40px {
+    font-size: 40px !important;
+  }
+  .custom-font-size {
+    font-size: 1rem;
+  }
+  .search-placement {
+    top: 23vh;
+  }
+  .video-size {
+    /* width: 20%;
+    height: 150%; */
+  }
+  .video-responsive {
+    top: 30vh;
+    right: 9.5rem;
+    transform: translateY(-30%);
+  }
+  .modal-width {
+    width: 100%;
+  }
+  .health-card-button {
+    padding: 1.5rem;
+    /* top : 33vh; */
+    /* left: 36vw; */
+    font-size: 1.25rem;
+  }
+  .text-size-banner {
+    font-size: 0.75rem;
+  }
+  .mobile-input {
+    min-width: 93%;
+  }
+  .mobile-input2 {
+    min-width: 75%;
+  }
+  .subscriber-img {
+    border-radius: 50%;
+    height: 5.25rem;
+    width: 5.25rem;
+    object-fit: cover;
+    object-position: center;
+  }
+  .subscriber-line1 {
+    top: 28vh;
+  }
+  .subscriber-line2 {
+    top: 30vh;
+  }
+  .subscriber-line3 {
+    bottom: 35vh;
+  }
+  .counter-card {
+    width: 17.25rem !important;
+    min-height: 11.87rem !important;
+  }
+  .subscriber-row-height {
+    max-height: 100vh !important;
+    min-height: 60vh !important;
+  }
+  .pdf-height {
+    height: 15rem !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .fs-32px {
+    font-size: 32px !important;
+  }
+  .fs-24px {
+    font-size: 24px !important;
+  }
+  .fs-36px {
+    font-size: 36px !important;
+  }
+  .fs-40px {
+    font-size: 40px !important;
+  }
+  .margin-90px {
+    margin: 0 5.625rem !important;
+  }
+  .arrowSize {
+    width: 2.5rem;
+  }
+  .footer-icons {
+    display: block;
+  }
+  .custom-font-size {
+    font-size: 2rem;
+  }
+  .footer-email-input {
+    max-width: 18rem;
+  }
+  .form-row-height {
+    min-height: 80vh;
+  }
+  .search-placement {
+    top: 58vh;
+  }
+  .card-small-placement {
+    position: absolute;
+    top: 25vh;
+    left: 0vw;
+  }
+  .modal-width {
+    width: 30%;
+  }
+
+  .mobile-input {
+    min-width: 80%;
+  }
+  .mobile-input1 {
+    min-width: 110%;
+  }
+  .mobile-input2 {
+    min-width: 98%;
+  }
+  .element {
+    width: 8rem;
+  }
+  .element2 {
+    width: 16rem;
+  }
+  .btn-color-mode-switch > label.btn-color-mode-switch-inner {
+    width: 358px;
+    height: 66px;
+  }
+  .btn-color-mode-switch > label.btn-color-mode-switch-inner:after {
+    width: 187px;
+    height: 58px;
+    left: 3.5px;
+    top: 3.5px;
+    padding: 15px 0;
+  }
+  .btn-color-mode-switch > label.btn-color-mode-switch-inner:before {
+    top: 16px;
+    right: 59px;
+  }
+  .btn-color-mode-switch
+    input[type="checkbox"]:checked
+    + label.btn-color-mode-switch-inner:after {
+    left: 165px;
+  }
+  .health-card-button {
+    padding: 1.5rem;
+    /* top : 73vh; */
+    /* left: 40vw; */
+    font-size: 1.25rem;
+  }
+  .subscriber-img {
+    border-radius: 50%;
+    height: 6.25rem;
+    width: 6.25rem;
+    object-fit: cover;
+    object-position: center;
+  }
+  .subscriber-line1 {
+    top: 26vh;
+  }
+  .subscriber-line2 {
+    top: 30vh;
+  }
+  .subscriber-line3 {
+    bottom: 62vh;
+  }
+  /* .hand-wave-img{
+    width: 50%;
+    height: 50%;
+  } */
+  /* .video-responsive{
+    top: 30vh;
+    right: 9.5rem;
+    transform: translateY(-30%),
+  } */
+  .video-size {
+    /* width: 30%;
+    height: 100vh; */
+  }
+  .text-size-banner {
+    font-size: 1rem;
+  }
+  .counter-card {
+    width: 17.25rem !important;
+    min-height: 11.87rem !important;
+  }
+  .feedback-arrowSize {
+    width: 3.5rem;
+  }
+  .subscriber-row-height {
+    max-height: 100vh !important;
+    min-height: 70vh !important;
+  }
+  .pdf-height {
+    height: 25rem !important;
+  }
+}
+
+/* accordian */
+.accordion {
+  border-width: 0 !important;
+  background-color: transparent !important;
+}
+
+.accordion-button {
+  box-shadow: none !important;
+}
+
+.accordion-item {
+  border-top: 0 !important;
+  border-left: 0 !important;
+  border-right: 0 !important;
+}
+
+.accordion-body {
+  background-color: transparent !important;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: transparent !important;
+}
+
+/* Default styles (for desktop screens) */
+.button-overlay {
+  top: 69%; /* Default vertical position for desktop */
+  left: 100px; /* Default horizontal position for desktop */
+  padding: 8px 16px;
+  cursor: pointer;
+  white-space: nowrap;
+  font-size: 14px;
+  border-radius: 4px;
+  z-index: 10;
+}
+
+/* For large laptops/tablets (max-width: 1200px) */
+@media (max-width: 1200px) {
+  .button-overlay {
+    top: 72%; /* Adjust vertical position */
+    left: 90px; /* Adjust horizontal position */
+  }
+}
+
+/* For tablets and smaller laptops (max-width: 992px) */
+@media (max-width: 992px) {
+  .button-overlay {
+    top: 75%; /* Adjust vertical position */
+    left: 50px; /* Adjust horizontal position */
+  }
+}
+
+/* For tablets and large mobile phones (max-width: 768px) */
+@media (max-width: 768px) {
+  .button-overlay {
+    top: 70%; /* Adjust vertical position */
+    left: 20px; /* Adjust horizontal position */
+  }
+}
+
+/* For small mobile phones (max-width: 374px) */
+@media (max-width: 374px) {
+  .button-overlay {
+    top: 70%; /* Adjust vertical position for smaller screens */
+    left: 20px; /* Adjust horizontal position for smaller screens */
+  }
+}
+
+.button-overlay1 {
+  top: 60%; /* Position the button vertically centered on the image */
+  left: 90px; /* Align the button on the left side of the image */
+  padding: 8px 16px; /* Adjust padding to make the button smaller */
+  cursor: pointer; /* Pointer on hover */
+  white-space: nowrap; /* Prevent text from wrapping */
+  font-size: 14px; /* Adjust the font size for a smaller button */
+  border-radius: 4px; /* Optional: Add some border radius for better appearance */
+  z-index: 10; /* Ensure the button is on top of the image */
+}
+
+/* For large laptops/tablets (max-width: 1200px) */
+@media (max-width: 1200px) {
+  .button-overlay1 {
+    top: 65%; /* Adjust vertical position */
+    left: 90px; /* Adjust horizontal position */
+  }
+}
+
+/* For tablets and smaller laptops (max-width: 992px) */
+@media (max-width: 992px) {
+  .button-overlay1 {
+    top: 60%; /* Adjust vertical position */
+    left: 50px; /* Adjust horizontal position */
+  }
+}
+
+/* For tablets and large mobile phones (max-width: 768px) */
+@media (max-width: 768px) {
+  .button-overlay1 {
+    top: 60%; /* Adjust vertical position */
+    left: 20px; /* Adjust horizontal position */
+  }
+}
+
+/* For small mobile phones (max-width: 374px) */
+@media (max-width: 374px) {
+  .button-overlay1 {
+    top: 50%; /* Adjust vertical position for smaller screens */
+    left: 20px; /* Adjust horizontal position for smaller screens */
+  }
+}
+
+.button-overlay2 {
+  top: 85%; /* Position the button vertically centered on the image */
+  left: 43%; /* Align the button on the left side of the image */
+  padding: 8px 16px; /* Adjust padding to make the button smaller */
+  cursor: pointer; /* Pointer on hover */
+  white-space: nowrap; /* Prevent text from wrapping */
+  font-size: 14px; /* Adjust the font size for a smaller button */
+  border-radius: 4px; /* Optional: Add some border radius for better appearance */
+  z-index: 10; /* Ensure the button is on top of the image */
+}
+
+/* For large laptops/tablets (max-width: 1200px) */
+@media (max-width: 1200px) {
+  .button-overlay2 {
+    top: 80%; /* Position the button vertically centered on the image */
+    left: 40%;
+  }
+}
+
+/* For tablets and smaller laptops (max-width: 992px) */
+@media (max-width: 992px) {
+  .button-overlay2 {
+    top: 80%; /* Adjust vertical position */
+    left: 40%; /* Adjust horizontal position */
+  }
+}
+
+/* For tablets and large mobile phones (max-width: 768px) */
+@media (max-width: 768px) {
+  .button-overlay2 {
+    top: 75%; /* Adjust vertical position */
+    left: 40%; /* Adjust horizontal position */
+  }
+}
+
+/* For small mobile phones (max-width: 374px) */
+@media (max-width: 374px) {
+  .button-overlay2 {
+    top: 70%; /* Adjust vertical position for smaller screens */
+    left: 30%; /* Adjust horizontal position for smaller screens */
+  }
+}
+
+.button-overlay3 {
+  top: 64%; /* Position the button vertically centered on the image */
+  left: 90px; /* Align the button on the left side of the image */
+  padding: 8px 16px; /* Adjust padding to make the button smaller */
+  cursor: pointer; /* Pointer on hover */
+  white-space: nowrap; /* Prevent text from wrapping */
+  font-size: 14px; /* Adjust the font size for a smaller button */
+  border-radius: 4px; /* Optional: Add some border radius for better appearance */
+  z-index: 10; /* Ensure the button is on top of the image */
+}
+
+/* For large laptops/tablets (max-width: 1200px) */
+@media (max-width: 1200px) {
+  .button-overlay3 {
+    top: 60%; /* Position the button vertically centered on the image */
+    left: 90px;
+  }
+}
+
+/* For tablets and smaller laptops (max-width: 992px) */
+@media (max-width: 992px) {
+  .button-overlay3 {
+    top: 60%; /* Adjust vertical position */
+    left: 60px; /* Adjust horizontal position */
+  }
+}
+
+/* For tablets and large mobile phones (max-width: 768px) */
+@media (max-width: 768px) {
+  .button-overlay3 {
+    top: 60%; /* Adjust vertical position */
+    left: 20px; /* Adjust horizontal position */
+  }
+}
+
+/* For small mobile phones (max-width: 374px) */
+@media (max-width: 374px) {
+  .button-overlay3 {
+    top: 60%; /* Adjust vertical position for smaller screens */
+    left: 20px; /* Adjust horizontal position for smaller screens */
+  }
+}
+
+.button-overlay4 {
+  top: 85%; /* Position the button vertically centered on the image */
+  left: 26%; /* Align the button on the left side of the image */
+  padding: 8px 16px; /* Adjust padding to make the button smaller */
+  cursor: pointer; /* Pointer on hover */
+  white-space: nowrap; /* Prevent text from wrapping */
+  font-size: 14px; /* Adjust the font size for a smaller button */
+  border-radius: 4px; /* Optional: Add some border radius for better appearance */
+  z-index: 10; /* Ensure the button is on top of the image */
+}
+
+/* For large laptops/tablets (max-width: 1200px) */
+@media (max-width: 1200px) {
+  .button-overlay4 {
+    top: 85%; /* Position the button vertically centered on the image */
+    left: 26%;
+  }
+}
+
+/* For tablets and smaller laptops (max-width: 992px) */
+@media (max-width: 992px) {
+  .button-overlay4 {
+    top: 80%; /* Adjust vertical position */
+    left: 25%; /* Adjust horizontal position */
+  }
+}
+
+/* For tablets and large mobile phones (max-width: 768px) */
+@media (max-width: 768px) {
+  .button-overlay4 {
+    top: 75%; /* Adjust vertical position */
+    left: 20%; /* Adjust horizontal position */
+  }
+}
+
+/* For small mobile phones (max-width: 374px) */
+@media (max-width: 374px) {
+  .button-overlay4 {
+    top: 60%; /* Adjust vertical position for smaller screens */
+    left: 10%; /* Adjust horizontal position for smaller screens */
+  }
+}
+
+.button-overlay6 {
+  top: 75%; /* Position the button vertically centered on the image */
+  left: 90px; /* Align the button on the left side of the image */
+  padding: 8px 16px; /* Adjust padding to make the button smaller */
+  cursor: pointer; /* Pointer on hover */
+  white-space: nowrap; /* Prevent text from wrapping */
+  font-size: 14px; /* Adjust the font size for a smaller button */
+  border-radius: 4px; /* Optional: Add some border radius for better appearance */
+  z-index: 10; /* Ensure the button is on top of the image */
+}
+
+/* For large laptops/tablets (max-width: 1200px) */
+@media (max-width: 1200px) {
+  .button-overlay6 {
+    top: 70%; /* Position the button vertically centered on the image */
+    left: 90px;
+  }
+}
+
+/* For tablets and smaller laptops (max-width: 992px) */
+@media (max-width: 992px) {
+  .button-overlay6 {
+    top: 60%; /* Adjust vertical position */
+    left: 50px; /* Adjust horizontal position */
+  }
+}
+
+/* For tablets and large mobile phones (max-width: 768px) */
+@media (max-width: 768px) {
+  .button-overlay6 {
+    top: 60%; /* Adjust vertical position */
+    left: 30px; /* Adjust horizontal position */
+  }
+}
+
+/* For small mobile phones (max-width: 374px) */
+@media (max-width: 374px) {
+  .button-overlay6 {
+    top: 60%; /* Adjust vertical position for smaller screens */
+    left: 20px; /* Adjust horizontal position for smaller screens */
+  }
+}
+
+.button-overlay7 {
+  top: 80%; /* Position the button vertically centered on the image */
+  left: 90px; /* Align the button on the left side of the image */
+  padding: 8px 16px; /* Adjust padding to make the button smaller */
+  cursor: pointer; /* Pointer on hover */
+  white-space: nowrap; /* Prevent text from wrapping */
+  font-size: 14px; /* Adjust the font size for a smaller button */
+  border-radius: 4px; /* Optional: Add some border radius for better appearance */
+  z-index: 10; /* Ensure the button is on top of the image */
+}
+
+/* For large laptops/tablets (max-width: 1200px) */
+@media (max-width: 1200px) {
+  .button-overlay7 {
+    top: 80%; /* Position the button vertically centered on the image */
+    left: 90px;
+  }
+}
+
+/* For tablets and smaller laptops (max-width: 992px) */
+@media (max-width: 992px) {
+  .button-overlay7 {
+    top: 80%; /* Adjust vertical position */
+    left: 60px; /* Adjust horizontal position */
+  }
+}
+
+/* For tablets and large mobile phones (max-width: 768px) */
+@media (max-width: 768px) {
+  .button-overlay7 {
+    top: 75%; /* Adjust vertical position */
+    left: 20px; /* Adjust horizontal position */
+  }
+}
+
+/* For small mobile phones (max-width: 374px) */
+@media (max-width: 374px) {
+  .button-overlay7 {
+    top: 75%; /* Adjust vertical position for smaller screens */
+    left: 20px; /* Adjust horizontal position for smaller screens */
+  }
+}
+
+.button-overlay5 {
+  top: 70%; /* Position the button vertically centered on the image */
+  left: 90px; /* Align the button on the left side of the image */
+  padding: 8px 16px; /* Adjust padding to make the button smaller */
+  cursor: pointer; /* Pointer on hover */
+  white-space: nowrap; /* Prevent text from wrapping */
+  font-size: 14px; /* Adjust the font size for a smaller button */
+
+  z-index: 10; /* Ensure the button is on top of the image */
+}
+
+/* For large laptops/tablets (max-width: 1200px) */
+@media (max-width: 1200px) {
+  .button-overlay5 {
+    top: 72%; /* Adjust vertical position */
+    left: 100px; /* Adjust horizontal position */
+  }
+}
+
+/* For tablets and smaller laptops (max-width: 992px) */
+@media (max-width: 992px) {
+  .button-overlay5 {
+    top: 70%; /* Adjust vertical position */
+    left: 60px; /* Adjust horizontal position */
+  }
+}
+
+/* For tablets and large mobile phones (max-width: 768px) */
+@media (max-width: 768px) {
+  .button-overlay5 {
+    top: 70%; /* Adjust vertical position */
+    left: 20px; /* Adjust horizontal position */
+  }
+}
+
+/* For small mobile phones (max-width: 374px) */
+@media (max-width: 374px) {
+  .button-overlay5 {
+    top: 70%; /* Adjust vertical position for smaller screens */
+    left: 20px; /* Adjust horizontal position for smaller screens */
+  }
+}
+
+/* Default styles for desktop (large screens) */
+.mybtn {
+  width: 170px; /* Default desktop size */
+  height: 40px;
+  background-color: #243673;
+  color: white;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  outline: none;
+  border: none;
+  box-shadow: none;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.mybtn:hover {
+  background-color: #6070a5; /* Change background color on hover */
+}
+
+/* For large laptops and tablets (max-width: 1200px) */
+@media (max-width: 1200px) {
+  .mybtn {
+    width: 140px;
+    height: 35px;
+    font-size: 14px;
+  }
+}
+
+/* For tablets and small laptops (max-width: 992px) */
+@media (max-width: 992px) {
+  .mybtn {
+    width: 100px;
+    height: 25px;
+    font-size: 12px;
+  }
+}
+
+/* For tablets and large mobile phones (max-width: 768px) */
+@media (max-width: 768px) {
+  .mybtn {
+    width: 70px;
+    height: 20px;
+    font-size: 8px;
+    border-radius: 4px;
+  }
+}
+
+/* For small mobile phones (max-width: 374px) */
+@media (max-width: 374px) {
+  .mybtn {
+    width: 70px;
+    height: 15px;
+    font-size: 6px;
+    border-radius: 4px; /* Adjust border-radius for smaller buttons */
+  }
+}
+
+.margin-y {
+  margin-top: 60px;
+  margin-bottom: 24px;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.fs-20 {
+  font-size: 25px; /* Default for desktop or larger screens */
+}
+
+@media (max-width: 1200px) {
+  /* For large tablets or smaller laptops */
+  .fs-20 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 992px) {
+  /* For tablets */
+  .fs-20 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* For mobile devices */
+  .fs-20 {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  /* For smaller mobile devices */
+  .fs-20 {
+    font-size: 12px;
+  }
+}
+
+.fs-28 {
+  font-size: 28px; /* Default for desktop or larger screens */
+}
+
+@media (max-width: 1200px) {
+  /* For large tablets or smaller laptops */
+  .fs-28 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 992px) {
+  /* For tablets */
+  .fs-28 {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* For mobile devices */
+  .fs-28 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 576px) {
+  /* For smaller mobile devices */
+  .fs-28 {
+    font-size: 22px;
+  }
+}
+.my-mine {
+  margin-top: -120px;
+}
+
+.margin-mine {
+  margin: -50px;
+}
+.img-margin {
+  margin-left: -1rem;
+  margin-top: -2rem;
+}
+
+.img-sizing {
+  width: 8rem;
+  height: 5rem;
+}
+
+/* For large laptops and tablets (max-width: 1200px) */
+@media (max-width: 1200px) {
+  .img-sizing {
+    width: 10rem;
+    height: 8rem;
+  }
+}
+
+/* For tablets and small laptops (max-width: 992px) */
+@media (max-width: 992px) {
+  .img-sizing {
+    width: 10rem;
+    height: 8rem;
+  }
+}
+
+/* For tablets and large mobile phones (max-width: 768px) */
+@media (max-width: 768px) {
+  .img-sizing {
+    width: 9rem;
+    height: 7rem;
+  }
+}
+
+/* For small mobile phones (max-width: 374px) */
+@media (max-width: 374px) {
+  .img-sizing {
+    width: 6rem;
+    height: 4rem;
+  }
+}
+
+.img-siz1 {
+  left: 20vw;
+  top: 25vh;
+}
+
+/* For large laptops and tablets (max-width: 1200px) */
+@media (max-width: 1200px) {
+  .img-siz1 {
+    left: 20vw;
+    top: 25vh;
+  }
+}
+
+/* For tablets and small laptops (max-width: 992px) */
+@media (max-width: 992px) {
+  .img-siz1 {
+    left: 20vw;
+    top: 30vh;
+  }
+}
+
+/* For tablets and large mobile phones (max-width: 768px) */
+@media (max-width: 768px) {
+  .img-siz1 {
+    left: 20vw;
+    top: 35vh;
+  }
+}
+
+/* For small mobile phones (max-width: 374px) */
+@media (max-width: 374px) {
+  .img-siz1 {
+    left: 20vw;
+    top: 35vh;
+  }
+}
+
+.img-siz2 {
+  left: 60vw;
+  top: 27vh;
+}
+
+/* For large laptops and tablets (max-width: 1200px) */
+@media (max-width: 1200px) {
+  .img-siz2 {
+    left: 60vw;
+    top: 27vh;
+  }
+}
+
+/* For tablets and small laptops (max-width: 992px) */
+@media (max-width: 992px) {
+  .img-siz2 {
+    left: 60vw;
+    top: 27vh;
+  }
+}
+
+/* For tablets and large mobile phones (max-width: 768px) */
+@media (max-width: 768px) {
+  .img-siz2 {
+    left: 60vw;
+    top: 27vh;
+  }
+}
+
+/* For small mobile phones (max-width: 374px) */
+@media (max-width: 374px) {
+  .img-siz2 {
+    left: 60vw;
+    top: 27vh;
+  }
+}
+
+.img-siz3 {
+  left: 85vw;
+  top: 30vh;
+}
+
+/* For large laptops and tablets (max-width: 1200px) */
+@media (max-width: 1200px) {
+  .img-siz3 {
+    left: 85vw;
+    top: 30vh;
+  }
+}
+
+/* For tablets and small laptops (max-width: 992px) */
+@media (max-width: 992px) {
+  .img-siz3 {
+    left: 85vw;
+    top: 30vh;
+  }
+}
+
+/* For tablets and large mobile phones (max-width: 768px) */
+@media (max-width: 768px) {
+  .img-siz3 {
+    left: 85vw;
+    top: 25vh;
+  }
+}
+
+/* For small mobile phones (max-width: 374px) */
+@media (max-width: 374px) {
+  .img-siz3 {
+    left: 85vw;
+    top: 25vh;
+  }
+}
+
+.img-siz4 {
+  left: 5vw;
+  top: 20vh;
+}
+
+/* For large laptops and tablets (max-width: 1200px) */
+@media (max-width: 1200px) {
+  .img-siz4 {
+    left: 5vw;
+    top: 20vh;
+  }
+}
+
+/* For tablets and small laptops (max-width: 992px) */
+@media (max-width: 992px) {
+  .img-siz4 {
+    left: 5vw;
+    top: 20vh;
+  }
+}
+
+/* For tablets and large mobile phones (max-width: 768px) */
+@media (max-width: 768px) {
+  .img-siz4 {
+    left: 5vw;
+    top: 25vh;
+  }
+}
+
+/* For small mobile phones (max-width: 374px) */
+@media (max-width: 374px) {
+  .img-siz4 {
+    left: 5vw;
+    top: 25vh;
+  }
+}
+
+.img-siz5 {
+  left: 35vw;
+  top: 30vh;
+}
+
+/* For large laptops and tablets (max-width: 1200px) */
+@media (max-width: 1200px) {
+  .img-siz5 {
+    left: 35vw;
+    top: 30vh;
+  }
+}
+
+/* For tablets and small laptops (max-width: 992px) */
+@media (max-width: 992px) {
+  .img-siz5 {
+    left: 35vw;
+    top: 30vh;
+  }
+}
+
+/* For tablets and large mobile phones (max-width: 768px) */
+@media (max-width: 768px) {
+  .img-siz5 {
+    left: 35vw;
+    top: 32vh;
+  }
+}
+
+/* For small mobile phones (max-width: 374px) */
+@media (max-width: 374px) {
+  .img-siz5 {
+    left: 35vw;
+    top: 32vh;
+  }
+}
+
+.img-siz6 {
+  left: 20vw;
+  top: 25vh;
+}
+
+/* For large laptops and tablets (max-width: 1200px) */
+@media (max-width: 1200px) {
+  .img-siz6 {
+    left: 20vw;
+    top: 25vh;
+  }
+}
+
+/* For tablets and small laptops (max-width: 992px) */
+@media (max-width: 992px) {
+  .img-siz6 {
+    left: 20vw;
+    top: 25vh;
+  }
+}
+
+/* For tablets and large mobile phones (max-width: 768px) */
+@media (max-width: 768px) {
+  .img-siz6 {
+    left: 20vw;
+    top: 35vh;
+  }
+}
+
+/* For small mobile phones (max-width: 374px) */
+@media (max-width: 374px) {
+  .img-siz6 {
+    left: 20vw;
+    top: 35vh;
+  }
+}
+
+.img-siz7 {
+  left: 60vw;
+  top: 30vh;
+}
+
+/* For large laptops and tablets (max-width: 1200px) */
+@media (max-width: 1200px) {
+  .img-siz7 {
+    left: 60vw;
+    top: 30vh;
+  }
+}
+
+/* For tablets and small laptops (max-width: 992px) */
+@media (max-width: 992px) {
+  .img-siz7 {
+    left: 60vw;
+    top: 30vh;
+  }
+}
+
+/* For tablets and large mobile phones (max-width: 768px) */
+@media (max-width: 768px) {
+  .img-siz7 {
+    left: 60vw;
+    top: 32vh;
+  }
+}
+
+/* For small mobile phones (max-width: 374px) */
+@media (max-width: 374px) {
+  .img-siz7 {
+    left: 60vw;
+    top: 32vh;
+  }
+}
+
+.img-siz8 {
+  left: 85vw;
+  top: 30vh;
+}
+
+/* For large laptops and tablets (max-width: 1200px) */
+@media (max-width: 1200px) {
+  .img-siz8 {
+    left: 85vw;
+    top: 30vh;
+  }
+}
+
+/* For tablets and small laptops (max-width: 992px) */
+@media (max-width: 992px) {
+  .img-siz8 {
+    left: 85vw;
+    top: 30vh;
+  }
+}
+
+/* For tablets and large mobile phones (max-width: 768px) */
+@media (max-width: 768px) {
+  .img-siz8 {
+    left: 85vw;
+    top: 24vh;
+  }
+}
+
+/* For small mobile phones (max-width: 374px) */
+@media (max-width: 374px) {
+  .img-siz8 {
+    left: 85vw;
+    top: 24vh;
+  }
+}
+
+.img-siz9 {
+  left: 5vw;
+  top: 30vh;
+}
+
+/* For large laptops and tablets (max-width: 1200px) */
+@media (max-width: 1200px) {
+  .img-siz9 {
+    left: 5vw;
+    top: 30vh;
+  }
+}
+
+/* For tablets and small laptops (max-width: 992px) */
+@media (max-width: 992px) {
+  .img-siz9 {
+    left: 5vw;
+    top: 30vh;
+  }
+}
+
+/* For tablets and large mobile phones (max-width: 768px) */
+@media (max-width: 768px) {
+  .img-siz9 {
+    left: 5vw;
+    top: 32vh;
+  }
+}
+
+/* For small mobile phones (max-width: 374px) */
+@media (max-width: 374px) {
+  .img-siz9 {
+    left: 5vw;
+    top: 32vh;
+  }
+}
+
+.img-siz10 {
+  left: 35vw;
+  top: 25vh;
+}
+
+/* For large laptops and tablets (max-width: 1200px) */
+@media (max-width: 1200px) {
+  .img-siz10 {
+    left: 35vw;
+    top: 25vh;
+  }
+}
+
+/* For tablets and small laptops (max-width: 992px) */
+@media (max-width: 992px) {
+  .img-siz10 {
+    left: 35vw;
+    top: 25vh;
+  }
+}
+
+/* For tablets and large mobile phones (max-width: 768px) */
+@media (max-width: 768px) {
+  .img-siz10 {
+    left: 35vw;
+    top: 25vh;
+  }
+}
+
+/* For small mobile phones (max-width: 374px) */
+@media (max-width: 374px) {
+  .img-siz10 {
+    left: 35vw;
+    top: 25vh;
+  }
+}
+
+.img-siz11 {
+  left: 70vw;
+  top: 20vh;
+}
+
+/* For large laptops and tablets (max-width: 1200px) */
+@media (max-width: 1200px) {
+  .img-siz11 {
+    left: 70vw;
+    top: 20vh;
+  }
+}
+
+/* For tablets and small laptops (max-width: 992px) */
+@media (max-width: 992px) {
+  .img-siz11 {
+    left: 70vw;
+    top: 20vh;
+  }
+}
+
+/* For tablets and large mobile phones (max-width: 768px) */
+@media (max-width: 768px) {
+  .img-siz11 {
+    left: 70vw;
+    top: 24vh;
+  }
+}
+
+/* For small mobile phones (max-width: 374px) */
+@media (max-width: 374px) {
+  .img-siz11 {
+    left: 70vw;
+    top: 24vh;
+  }
+}
+
+/* .line-margin{
+  margin-top: 0px;
+}
+
+@media (max-width: 768px) {
+.line-margin{
+  margin-top: -400px;
+}
+}
+
+@media (max-width: 374px) {
+  .line-margin{
+    margin-top: -400px;
+  }
+  } */
+
+.content-container {
+  display: flex;
+  flex-direction: row; /* Stack items by default */
+  align-items: center; /* Center align items */
+  justify-content: space-between; /* Space between items */
+  margin: 1rem; /* Add margin to the container */
+}
+
+.video-container {
+  width: 100%; /* Full width for mobile */
+  max-width: 600px; /* Limit maximum width */
+}
+
+.text-container {
+  width: 100%; /* Full width for mobile */
+  max-width: 600px; /* Limit maximum width */
+  text-align: justify;
+}
+
+/* Mobile */
+@media (min-width: 201px) and (max-width: 650px) {
+  .content-container {
+    flex-direction: column; /* Keep stacking on tablets */
+  }
+
+  .text-container {
+    margin-top: 1rem; /* Space above text */
+  }
+  .video-cont {
+    width: 80%;
+  }
+}
+
+/* Tablets */
+@media (min-width: 651px) and (max-width: 1415px) {
+  .content-container {
+    flex-direction: column; /* Keep stacking on tablets */
+  }
+
+  .text-container {
+    margin-top: 1rem; /* Space above text */
+  }
+  /* .video-cont {
+      width: 80%;
+    } */
+}
+
+/* Desktops */
+@media (min-width: 1416px) {
+  .content-container {
+    justify-content: space-between; /* Space between items */
+  }
+
+  .video-container {
+    flex: 0 0 40%; /* Set width for video container */
+  }
+
+  .text-container {
+    flex: 0 0 50%; /* Set width for text container */
+  }
+}
+
+:where(.css-dev-only-do-not-override-zg0ahe).ant-menu-submenu-popup
+  .ant-menu-vertical.ant-menu-sub {
+  scrollbar-width: thin;
+  scrollbar-color: lightgray transparent;
+}
+
+/* //////////////////////////////// */
+.responsive-text {
+  font-size: 0.875rem; /* Default for mobile (Bootstrap fs-6 equivalent) */
+}
+
+@media (min-width: 768px) {
+  /* For medium screens (tablets) */
+  .responsive-text {
+    font-size: 1rem; /* Bootstrap fs-5 equivalent */
+  }
+}
+
+@media (min-width: 1200px) {
+  /* For large screens (desktops) */
+  .responsive-text {
+    font-size: 1.25rem; /* Bootstrap fs-4 equivalent */
+  }
+}
+
+/* //////////////////////////// */
+
+/* @media (max-width: 768px) {
+  .text-purple {
+    font-size: 1.2rem;
+  }
+
+  .my-4 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+} */
+
+.table-container {
+  width: 100%;
+  overflow-x: auto; /* Allow horizontal scroll for overflow content */
+}
+
+.ant-table {
+  min-width: 100%; /* Ensure table columns adjust to screen size */
+}
+
+/* @media (max-width: 768px) {
+  .ant-table {
+    font-size: 12px; 
+  }
+} */
+
+.responsive-font {
+  font-size: 1rem; /* Default font size */
+  padding: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .responsive-font {
+    font-size: 0.875rem; /* Adjust font size for medium screens */
+    padding: 0.25rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .responsive-font {
+    font-size: 0.75rem; /* Adjust font size for small screens */
+    padding: 0.1rem;
+  }
+}
+
+.responsive-fontsize-table-header {
+  font-size: 0.9rem; /* Default font size */
+}
+
+@media (max-width: 768px) {
+  .responsive-fontsize-table-header {
+    font-size: 0.75rem; /* Adjust font size for medium screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .responsive-fontsize-table-header {
+    font-size: 0.65rem; /* Adjust font size for small screens */
+  }
+}
+
+.free-health-checkup-form {
+  padding: 16px;
+}
+.form-header {
+  text-align: center;
+}
+.back-link {
+  margin-bottom: 16px;
+}
+@media (max-width: 768px) {
+  .form-header h3 {
+    font-size: 1.5rem;
+  }
+  .form-header h6 {
+    font-size: 1rem;
+  }
+}
