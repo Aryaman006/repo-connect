@@ -6,11 +6,17 @@ const UserRouter = require("./user.routes")
 const PublicRouter = require("./public.routes")
 const ManagenetRouter = require("./management.router")
 const HRRouter = require("./hr.routes");
+const PartnerAdminRouter = require("./partner.admin.routes");
+const PartnerRouter = require("./partner.routes");
 
 const defaultRoutes = [
     {
         path: `/${VERSION}/admin`,
         route: AdminRouter
+    },
+    {
+        path: `/${VERSION}/admin`,
+        route: PartnerAdminRouter
     },
     {
         path: `/${VERSION}/user`,
@@ -27,6 +33,10 @@ const defaultRoutes = [
     {
         path: `/${VERSION}/hr`,
         route: HRRouter
+    },
+    {
+        path: `/${VERSION}/partner`,
+        route: PartnerRouter
     }
 ];
 

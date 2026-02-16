@@ -12,14 +12,20 @@ const validatePrivilege = (program_id, requestType) => async (req, res, next) =>
     const Permissions = await PrivilegeDal.GetIndividualPrivilege({ user_id:_id, program_id: program_id });
     
     if (!Permissions || !Permissions[requestType]) {
-      throw new ApiError(CONSTANTS_MESSAGES.UNAUTHORIZED, StatusCodes.UNAUTHORIZED);
-    } else {
-      console.log("Permission granted");
-      next(); 
+      return res.status(StatusCodes.UNAUTHORIZED).json({
+        data: [],
+        success: false,
+        message: CONSTANTS_MESSAGES.UNAUTHORIZED,
+      });
     }
+    next(); 
   } catch (error) {
     console.error("Error occurred in checking privileges:", error);
-    // res.status(error.status_code || StatusCodes.INTERNAL_SERVER_ERROR ).json({ error: error.message || CONSTANTS_MESSAGES.INTERNAL_SERVER_ERROR});
+    return res.status(error.status_code || StatusCodes.INTERNAL_SERVER_ERROR).json({
+      data: [],
+      success: false,
+      message: error.message || CONSTANTS_MESSAGES.INTERNAL_SERVER_ERROR,
+    });
   }
 };
 

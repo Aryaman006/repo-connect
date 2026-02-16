@@ -87,7 +87,17 @@ const CONSTANTS_MESSAGES = {
   CANNOT_DELETE_ALL_IMAGES: "All images cannot be deleted.",
   MAXIMUM_IMAGE_COUNT_REACHED: "Maximum 5 images can be added",
   APPOINTEMNT_ALREADY_TAKEN: "Appointment already scheduled",
-  
+  API_CLIENT_NOT_FOUND: "API client not found",
+  API_CLIENT_EXISTS: "API client with this name already exists",
+  API_KEY_NOT_FOUND: "API key not found",
+  API_KEY_REVOKED: "API key is already revoked",
+  API_KEY_EXPIRED: "API key has expired",
+  INVALID_API_KEY: "Invalid API key",
+  INVALID_API_KEY_FORMAT: "Invalid API key format",
+  MISSING_API_KEY: "Missing X-API-KEY header",
+  API_CLIENT_INACTIVE: "API client is inactive",
+  RATE_LIMIT_EXCEEDED: "Rate limit exceeded. Please try again later.",
+  RATE_LIMIT_UNAVAILABLE: "Rate limiting service unavailable. Please try again later.",
 }
 
 module.exports = CONSTANTS_MESSAGES;
