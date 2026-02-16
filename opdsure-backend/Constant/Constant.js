@@ -461,6 +461,8 @@ const CONSTANTS = {
           SPECIALIZATION : { id:13 , value:"Docotrs Specialization"},
           AUDIT_LOGS : { id:30 , value:"Audit Logs"},
           LOGIN_LOGS : { id:31 , value:"Login History"},
+          API_CLIENTS : { id:40 , value:"API Clients Master"},
+          API_KEYS : { id:41 , value:"API Keys Master"},
         },
         GENERAL : {
           APPROVAL : { id:20 , value:"Approval"},
